@@ -13,7 +13,7 @@ const mixedMessagesArray = [
 
 //Driver program
 const driverApp = () => {
-
+    console.log(mixedMessages());
 }
 
 // Generates a random quote from "mixedMessagesArray"
@@ -23,12 +23,8 @@ const mixedMessages = () => {
     return mixedMessagesArray[randomNumber];
 }
 
-// adds a new quote to the "mixedMessagesArray"
-const addNewMixedMessage = quote => {
-    
-}
+driverApp();
 
-mixedMessagesDriver();
 
 
 /*
